@@ -1,14 +1,11 @@
 import pygame
 pygame.init()
 infoObject = pygame.display.Info()
-width = infoObject.current_w
-height = infoObject.current_h
+width = 1366
+height = 768
+
 
 class Player:
-
-    #buttons={
-    #
-    # }
 
     def __init__(self, x, y, buttons, images=[]):
         self.x = x
