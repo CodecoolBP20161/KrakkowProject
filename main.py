@@ -4,7 +4,7 @@ import object
 
 
 # main settings
-display = pygame.display.set_mode((object.width, object.height), pygame.FULLSCREEN)
+display = pygame.display.set_mode((1366, 768))
 pygame.display.set_caption('Krakkow')
 pygame.mouse.set_visible(False)
 clock = pygame.time.Clock()

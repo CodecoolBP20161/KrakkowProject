@@ -1,9 +1,8 @@
 import pygame
 
 pygame.init()
-infoObject = pygame.display.Info()
-width = infoObject.current_w
-height = infoObject.current_h
+width = 1366
+height = 768
 background_image = pygame.transform.scale(pygame.image.load("images/background.jpg"), (width, height))
 normal1 = pygame.transform.scale(pygame.image.load('images/normal1.png'), (75, 150))
 normal2 = pygame.transform.scale(pygame.image.load('images/normal2.png'), (75, 150))
